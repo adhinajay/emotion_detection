@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "934323765532",
+    "project_id": "emotion-detection-acdda",
+    "storage_bucket": "emotion-detection-acdda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934323765532:android:8c1620011b1e804e267ad9",
+        "android_client_info": {
+          "package_name": "com.example.emotion_detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934323765532-fk3dor10imun6mmo648j0vm10mhsb8c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6G7djwHHUqmYNcoe_ENcN8yn2ZFraTnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934323765532-fk3dor10imun6mmo648j0vm10mhsb8c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
