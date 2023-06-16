@@ -16,14 +16,7 @@ class ScreenHistory extends StatelessWidget {
       appBar: AppBar(
         title:const Text('History'),
         flexibleSpace: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [
-            hexStringToColor("CB2B93"),
-            hexStringToColor("9546C4"),
-            hexStringToColor("5E61F4"),
-          ],begin: Alignment.topCenter,
-          end: Alignment.bottomCenter)
-          ),
+          color:Colors.blue[600],
         ),
       ),
       body: StreamBuilder(

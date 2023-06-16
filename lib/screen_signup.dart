@@ -30,16 +30,9 @@ class ScreenSignup extends StatelessWidget {
         elevation: 0,
       ),
       body:Container(
+        color:Colors.blue[600],
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        decoration: BoxDecoration(
-          gradient: LinearGradient(colors: [
-            hexStringToColor("CB2B93"),
-            hexStringToColor("9546C4"),
-            hexStringToColor("5E61F4"),
-          ],
-          begin: Alignment.topCenter,end: Alignment.bottomCenter)
-        ),
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.fromLTRB(20, MediaQuery.of(context).size.height*0.13, 20, 0),

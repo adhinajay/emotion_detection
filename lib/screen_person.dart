@@ -24,10 +24,16 @@ class ScreenAccount extends StatelessWidget {
                       padding: const EdgeInsets.all(40.0),
                       child: Column(
                         children: [
-                          const CircleAvatar(
-                            radius: 60,
-                            backgroundColor: Colors.blue,
-                          ),
+                          Container(
+                  height: 120,
+                  width: 120,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.blue,
+                  ),
+                  child: Icon(Icons.person, color: Colors.white,size: 65,),
+                  alignment: Alignment.center,
+                ),
                           const SizedBox(
                             height: 20,
                           ),
@@ -104,7 +110,7 @@ class ScreenAccount extends StatelessWidget {
                               Text(
                                 snapshot.data['email'],
                                 style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 19.7,
                                 ),
                               ),
                             ],
